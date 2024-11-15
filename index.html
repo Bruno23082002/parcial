@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="perfil.html">Perfil Profesional</a></li>
+            <li><a href="galeria.html">Galería de Imágenes</a></li>
+            <li><a href="blog.html">Blog Profesional</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Michelle Valiente</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenido</h2>
+            <p>Aquí encontrarás toda la información sobre la carrera profesional de Michelle Valiente.</p>
+        </section>
+        <div class="button-container">
+            <a href="perfil.html" class="animated-button">Perfil Profesional</a>
+            <a href="galeria.html" class="animated-button">Galería de Imágenes</a>
+            <a href="blog.html" class="animated-button">Blog Profesional</a>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Bruno Javier Gomez Franco</p>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
